@@ -10,6 +10,8 @@ Each tree in a random forest uses a subset of the data. This subset is taken usi
 
 These subsets are also called bootstrap datasets. Aggregating the results of these datasets is called bootstrap aggregation.
 
+They are called "bootstrap" datasets because the technique comes from the idiom "to pull oneself up by one's bootstraps". In statistics, you draw multiple new samples from a single, original dataset. Because the method creates new data samples using nothing but the data you already have, it metaphorically resembles lifting yourself by your own bootstraps.According to Wikipedia, this name originates from the tall tales of Baron Munchausen, who supposedly pulled himself out of a swamp by his own bootstraps
+
 Sample table of subsets that could be made from the breast tumor cell data:
 | Header 1 | Header 2 | Header 3 |
 | --- | --- | --- |
