@@ -1,6 +1,6 @@
 # Breast Cancer Classifier
 
-This project uses scikit-learn's random forest and the Wisconsin breast cancer dataset to predict whether breast tumor cells are benign or malignant.
+This project uses scikit-learn's RandomForestClassifier and the Wisconsin breast cancer dataset to predict whether breast tumor cells are benign or malignant.
 
 ## Decision tree jargon
 - Root node - training data is fed at root node -> ask T/F at each node to get to next node, rinse and repeat until you get final conclusion for the tree.
